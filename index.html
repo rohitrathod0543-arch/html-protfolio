@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campnio — Find Your Forever | Premium Matchmaking & Meaningful Connections</title>
+<meta name="description" content="Campnio is a premium matchmaking experience for people who want real, lasting relationships. Curated introductions, verified profiles, and a community built on intention.">
+<meta name="keywords" content="dating, relationships, matchmaking, premium dating site, Campnio, find love, serious relationships">
+<meta property="og:title" content="Campnio — Find Your Forever">
+<meta property="og:description" content="Where meaningful connections begin. Premium matchmaking for people who want it real.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating hearts background layer -->
+<div class="hearts-field" id="heartsField" aria-hidden="true"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 26C15 26 3.5 18.86 3.5 10.9C3.5 6.8 6.75 3.5 10.77 3.5C13.02 3.5 15 4.62 15 4.62C15 4.62 16.98 3.5 19.23 3.5C23.25 3.5 26.5 6.8 26.5 10.9C26.5 18.86 15 26 15 26Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="brand-word">Campnio</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#stories" class="nav-link">Stories</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="btn btn-ghost" id="loginBtn">Log In</button>
+      <button class="btn btn-primary" id="signupBtn">
+        <span>Sign Up</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=2000&q=80" alt="Couple walking together at golden hour" class="hero-img">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">A different kind of dating experience</p>
+      <h1 class="hero-title">Find Your <em>Forever</em></h1>
+      <p class="hero-subtitle">Where Meaningful Connections Begin</p>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" id="heroPrimaryBtn">Start Your Story</button>
+        <button class="btn btn-outline btn-lg" id="heroSecondaryBtn">See How It Works</button>
+      </div>
+
+      <div class="hero-trust">
+        <div class="avatar-stack" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=100&q=80" alt="">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=100&q=80" alt="">
+        </div>
+        <p>Joined this month by <strong>4,200+</strong> people who were done settling</p>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scrollCue" aria-label="Scroll to about section">
+      <span class="scroll-cue-line"></span>
+    </button>
+  </section>
+
+  <!-- ================= ABOUT / MARQUEE ================= -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-copy" data-reveal>
+        <p class="section-eyebrow">About Campnio</p>
+        <h2 class="section-title">Dating apps optimized for swipes. <span class="accent-underline">We optimized for endings.</span></h2>
+        <p class="section-lead">Campnio was built by people who were exhausted by the same three apps everyone else was using — endless matches, no follow-through, and conversations that went nowhere. So we built something slower, smaller, and considerably more serious about the outcome.</p>
+
+        <ul class="about-points">
+          <li>
+            <span class="point-index">Verified people</span>
+            <p>Every profile on Campnio is reviewed by a real person before it ever goes live — not a bot, not a checkbox.</p>
+          </li>
+          <li>
+            <span class="point-index">Fewer, better matches</span>
+            <p>We surface a small number of considered introductions each week instead of an infinite scroll of options.</p>
+          </li>
+          <li>
+            <span class="point-index">Built for intent</span>
+            <p>Campnio is for people who already know they want a real relationship — not another maybe.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about-visual" data-reveal>
+        <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="Couple laughing together outdoors" class="about-img about-img-1">
+        <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=700&q=80" alt="Couple sharing a quiet moment" class="about-img about-img-2">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stats" id="statsSection">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-count="92" data-suffix="%">0%</span>
+        <p class="stat-label">of members say their matches felt genuinely compatible</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-count="18500" data-suffix="+">0+</span>
+        <p class="stat-label">real relationships started on Campnio since launch</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-count="3200" data-suffix="+">0+</span>
+        <p class="stat-label">engagements and counting — yes, we keep track</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-count="4.9" data-suffix="/5" data-decimals="1">0/5</span>
+        <p class="stat-label">average rating from members after their first month</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURES ================= -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Features</p>
+        <h2 class="section-title">Everything about Campnio is built around one question: <span class="accent-underline">is this person right for you?</span></h2>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card feature-card-large">
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 34S6 25.6 6 15.8C6 10.6 10.2 6.4 15.3 6.4c2.9 0 5.6 1.4 6.7 3.6 1.1-2.2 3.8-3.6 6.7-3.6C33.8 6.4 38 10.6 38 15.8 38 25.6 20 34 20 34z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Compatibility Intelligence</h3>
+          <p>Our matching model weighs values, life pace, and long-term intentions far more heavily than looks or bios — the things that actually predict whether two people last.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 33c1.5-7 6-10 12-10s10.5 3 12 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Human-Verified Profiles</h3>
+          <p>Real ID checks and manual review before any profile is visible to the community.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M7 12h26M7 20h26M7 28h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Curated Weekly Introductions</h3>
+          <p>No endless feed. A short, considered list of people worth your time, every week.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="7" y="9" width="26" height="22" rx="3" stroke="currentColor" stroke-width="2"/><path d="M7 15h26" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Guided First Conversations</h3>
+          <p>Prompts drawn from your shared answers, so the first message is never "hey."</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 6l3.9 8.3 9.1 1.2-6.6 6.3 1.6 9-8-4.5-8 4.5 1.6-9-6.6-6.3 9.1-1.2L20 6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Private by Default</h3>
+          <p>You control exactly who sees your profile, and your data is never sold — ever.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STORIES / TESTIMONIALS ================= -->
+  <section class="stories" id="stories">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Success Stories</p>
+        <h2 class="section-title">Some people met on Campnio. <span class="accent-underline">Now they don't stop talking about it.</span></h2>
+      </div>
+
+      <div class="stories-track" id="storiesTrack">
+        <article class="story-card">
+          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=600&q=80" alt="Amara and Josh, married after meeting on Campnio" class="story-img">
+          <div class="story-body">
+            <p class="story-quote">"Three weeks in, I deleted every other app. Eight months later he moved cities for me. We're getting married in the spring."</p>
+            <p class="story-name">Amara &amp; Josh</p>
+            <p class="story-meta">Matched 2024 · Engaged 2025</p>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80" alt="Priya and Dev, together after meeting on Campnio" class="story-img">
+          <div class="story-body">
+            <p class="story-quote">"I'd basically given up. Campnio's first match was, genuinely, the last person I ever went on a first date with."</p>
+            <p class="story-name">Priya &amp; Dev</p>
+            <p class="story-meta">Matched 2023 · Living together</p>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <img src="https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?auto=format&fit=crop&w=600&q=80" alt="Elena and Marcus, married after meeting on Campnio" class="story-img">
+          <div class="story-body">
+            <p class="story-quote">"The weekly limit sounds small until you realize it means every match is someone worth actually meeting."</p>
+            <p class="story-name">Elena &amp; Marcus</p>
+            <p class="story-meta">Matched 2022 · Married 2024</p>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <img src="https://images.unsplash.com/photo-1521566652839-697aa473761a?auto=format&fit=crop&w=600&q=80" alt="Noah and Sam, together after meeting on Campnio" class="story-img">
+          <div class="story-body">
+            <p class="story-quote">"I liked that it didn't feel like a game. It felt like someone had actually thought about who I might get along with."</p>
+            <p class="story-name">Noah &amp; Sam</p>
+            <p class="story-meta">Matched 2024 · Together</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="stories-nav">
+        <button class="story-arrow" id="storyPrev" aria-label="Previous story">←</button>
+        <button class="story-arrow" id="storyNext" aria-label="Next story">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Moments</p>
+        <h2 class="section-title">Real people. <span class="accent-underline">Real first dates.</span></h2>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item-tall">
+        <img src="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=800&q=80" alt="Couple on a coffee date">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80" alt="Couple walking on the beach">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80" alt="Couple laughing at dinner">
+      </div>
+      <div class="gallery-item gallery-item-wide">
+        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1000&q=80" alt="Couple watching the sunset">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1518621736915-f3b3c4415bd6?auto=format&fit=crop&w=800&q=80" alt="Couple dancing together">
+      </div>
+      <div class="gallery-item gallery-item-tall">
+        <img src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?auto=format&fit=crop&w=800&q=80" alt="Couple embracing outdoors">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="faq" id="faq">
+    <div class="container faq-grid">
+      <div class="faq-intro" data-reveal>
+        <p class="section-eyebrow">Questions</p>
+        <h2 class="section-title">Before you join, <span class="accent-underline">here's what people ask us.</span></h2>
+        <p class="section-lead">Still curious about something? Reach out — our team actually answers.</p>
+        <button class="btn btn-outline" id="faqContactBtn">Contact Support</button>
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item is-open">
+          <button class="faq-question" aria-expanded="true">
+            <span>How is Campnio different from other dating apps?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>We limit how many people you see, verify every profile by hand, and design the entire experience around one relationship, not endless options. It's slower on purpose.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How much does Campnio cost?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Membership starts at a simple monthly rate with no hidden tiers. Founding members who join during this phase keep their rate locked for life.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How does profile verification work?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>You submit a quick ID and live photo check. A real member of our team reviews it within 24 hours — no automated approvals, no bots.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What if I don't get a good match right away?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Matching gets sharper the more you use Campnio. Most members see their first strong match within the first two to three weeks.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I pause or cancel my membership anytime?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Pause, cancel, or come back whenever you like from your account settings — no calls, no retention scripts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FINAL CTA ================= -->
+  <section class="final-cta" id="contact">
+    <div class="container final-cta-inner">
+      <p class="section-eyebrow section-eyebrow-light">Ready when you are</p>
+      <h2 class="final-cta-title">Your forever isn't going to introduce itself.</h2>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" id="ctaSignupBtn">Create Your Profile</button>
+        <button class="btn btn-outline btn-lg btn-outline-light" id="ctaLearnBtn">Talk to Our Team</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark">
+          <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 26C15 26 3.5 18.86 3.5 10.9C3.5 6.8 6.75 3.5 10.77 3.5C13.02 3.5 15 4.62 15 4.62C15 4.62 16.98 3.5 19.23 3.5C23.25 3.5 26.5 6.8 26.5 10.9C26.5 18.86 15 26 15 26Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-word">Campnio</span>
+      </a>
+      <p>Meaningful connections, made deliberately.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Campnio on Instagram" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="Campnio on X" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" aria-label="Campnio on TikTok" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 3v11.5a3.5 3.5 0 11-3-3.46" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M14 3c.3 2.3 2 4 4.4 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" aria-label="Campnio on LinkedIn" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 10.5v6M8 7.8v.2M12.2 16.5v-3.6c0-1.2.9-2 2-2s1.8.8 1.8 2v3.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#stories">Stories</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+      <a href="#">Safety Center</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Community Guidelines</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Campnio, Inc. All rights reserved.</p>
+    <p>Made for people who want the real thing.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
